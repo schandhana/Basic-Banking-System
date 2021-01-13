@@ -172,7 +172,7 @@ background-image: url("https://thumbs.dreamstime.com/z/row-coins-bank-book-graph
 
 <br>
 
-<a href="index3.html" class="button">Visit Home Page</a>
+<a href="index.html" class="button">Visit Home Page</a>
 
 
 	</table>
