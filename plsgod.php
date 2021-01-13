@@ -21,7 +21,7 @@ $q6= "select Balance from customers where id= '$sender'";
 		$row6 = $res6-> fetch_assoc();
     if ($row6["Balance"] < $amount)
     {
-		header( "refresh:9 ;url=history.php");
+		header( "refresh:9 ;url=History.php");
 		echo "Transaction failed!!"."<br>";
                  echo" Can't transfer the amount enter amount less than balance"."<br>";
 		echo "\nPlease wait... Redirecting to the site";
@@ -44,14 +44,14 @@ $q5 = "insert into transfers (Sender , Receiver , Amount) values ('$sender','$re
 mysqli_query($conn,$q5);
 
 
-header( "refresh:9 ;url=history.php");
+header( "refresh:9 ;url=History.php");
 echo "Transaction Successful";
 echo "\nPlease wait...Redirecting to the site";
 }
 }
 else
 {
-	header( "refresh:9 ;url=history.php");
+	header( "refresh:9 ;url=History.php");
 	echo "Transaction failed!!";
 	echo "\nPlease wait...Redirecting to the site";
 }
