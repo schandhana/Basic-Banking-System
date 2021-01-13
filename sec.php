@@ -142,7 +142,7 @@ background-image: url("https://thumbs.dreamstime.com/z/row-coins-bank-book-graph
 
 
 		<?php 
-		$connection = mysqli_connect("localhost","root","","users");
+		$connection = mysqli_connect("remotemysql.com","HaRugBoV2Y","tkWcAra9ZC","HaRugBoV2Y");
 		//$db = mysqli_select_db($connection,'test');
 		if(isset($_POST['search']))
 		{
