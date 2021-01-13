@@ -109,7 +109,7 @@ background-image: url("https://thumbs.dreamstime.com/z/row-coins-bank-book-graph
 
 
 <?php
-    $conn=mysqli_connect("localhost", "root", "", "users");
+    $conn=mysqli_connect("remotemysql.com","HaRugBoV2Y","tkWcAra9ZC","HaRugBoV2Y");
     if($conn-> connect_error){
         die("Connection failed:".$conn-> connect_error);
     }
