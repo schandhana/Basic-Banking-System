@@ -108,7 +108,11 @@ background-image: url("https://thumbs.dreamstime.com/z/row-coins-bank-book-graph
 
 
 
-<?php
+<?php 
+		//local connection
+		//$conn=mysqli_connect("localhost","root","","users");
+		//remote connection
+		
     $conn=mysqli_connect("remotemysql.com","HaRugBoV2Y","tkWcAra9ZC","HaRugBoV2Y");
     if($conn-> connect_error){
         die("Connection failed:".$conn-> connect_error);
@@ -142,6 +146,9 @@ background-image: url("https://thumbs.dreamstime.com/z/row-coins-bank-book-graph
 
 
 		<?php 
+		//local connection
+		//$conn=mysqli_connect("localhost","root","","users");
+		//remote connection
 		$connection = mysqli_connect("remotemysql.com","HaRugBoV2Y","tkWcAra9ZC","HaRugBoV2Y");
 		//$db = mysqli_select_db($connection,'test');
 		if(isset($_POST['search']))
