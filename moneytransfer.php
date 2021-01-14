@@ -35,19 +35,10 @@ body{
 
 </head>
 <body>
-  <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" >Transfer money</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li ><a href="index3.html">Homepage</a></li>
-    </ul>
-  </div>
-</nav>
+  
 <div class="container">
   <h2>Money Transfer</h2>
-  <form class="form-horizontal" action="plsgod.php" method="post">
+  <form class="form-horizontal" action="config.php" method="post">
     <div class="form-group">
       <label class="control-label col-sm-2" >Sender's id:</label>
       <div class="col-sm-10">
@@ -68,12 +59,12 @@ body{
     </div>
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit">Proceed To Pay</button>
+        <button type="submit">Proceed</button>
       </div>
     </div>
   </form>
 </div>
-<a href="sec.php" class="btn">back</a>
+<a href="sec.php" class="btn">Back</a>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
