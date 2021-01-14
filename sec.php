@@ -173,7 +173,7 @@ background-image: url("https://thumbs.dreamstime.com/z/row-coins-bank-book-graph
 		?>
 	</center>
 
-<a href="plsgodhelp.php" class="btn">Transfer Money </a>
+<a href="moneytransfer.php" class="btn">Transfer Money </a>
 
 
 
