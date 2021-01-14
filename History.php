@@ -84,6 +84,10 @@ color:purple;
 
 
 <?php
+		//local connection
+		//$conn=mysqli_connect("localhost","root","","users");
+		//remote connection
+		
     $conn=mysqli_connect("remotemysql.com","HaRugBoV2Y","tkWcAra9ZC","HaRugBoV2Y");
     if($conn-> connect_error){
         die("Connection failed:".$conn-> connect_error);
